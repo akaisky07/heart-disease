@@ -1,5 +1,7 @@
 # heart-disease
 
+The causes of cardiovascular disease can vary depending on the specific type. For example, atherosclerosis (plaque buildup in your arteries) causes coronary and peripheral artery disease. Coronary artery disease, scarring of your heart muscle, genetic problems, or medications can cause arrhythmias. Aging, infections, and rheumatic disease can cause valve diseases.
+
 Machine Learning Model
 The ML models used were random forest, lgbm, cat regressor,etc. The Final model selected with least MSE is Random Forest. 
 
