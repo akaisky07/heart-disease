@@ -13,3 +13,8 @@ Web Application
 Flask is used here for the app purpose, it consist of a form which takes various input and convert it into dataframe which is input to ml saved model and output is then displayed over result.html file.
 
 For runnning the web app, download the files and run the app.py file over terminal. The packages used in the code should be downloaded by the user.
+
+Video:
+
+https://user-images.githubusercontent.com/104855741/232224039-5b2861be-2699-4f53-a3ff-187481d6518f.mp4
+
