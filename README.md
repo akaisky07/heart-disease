@@ -1,19 +1,20 @@
 # heart-disease
 
-The causes of cardiovascular disease can vary depending on the specific type. For example, atherosclerosis (plaque buildup in your arteries) causes coronary and peripheral artery disease. Coronary artery disease, scarring of your heart muscle, genetic problems, or medications can cause arrhythmias. Aging, infections, and rheumatic disease can cause valve diseases.
+Cardiovascular disease can have various causes depending on the specific type. For instance, atherosclerosis contributes to coronary and peripheral artery disease, while arrhythmias can be caused by coronary artery disease, heart muscle scarring, genetic issues, or medications. Valve diseases, on the other hand, can be attributed to factors such as aging, infections, and rheumatic disease.
 
-Machine Learning Model
+In terms of the machine learning aspect:
 
-The ML models used were random forest, lgbm, cat regressor,etc. The Final model selected with least MSE is Random Forest. 
+    Different ML models such as random forest, lgbm, cat regressor, etc., were utilized.
+    The final model selected based on the least Mean Squared Error (MSE) was the Random Forest model.
+    The heart-disease.ipynb file contains data preprocessing, cleaning, and training of various models. The best-performing model is saved as heart_disease_model.joblib, which is then used by the Flask app for the web application. The training data used for the model is stored in the train.csv file.
 
-heart-disease.ipynb contains the data pre-processiing, cleaning, training pf diffrent models and the best performed model is then saved as heart_disease_model.joblib which is used by the flask app for web application. train.csv is the data used for the model
+Regarding the web application:
 
-Web Application
+    Flask is employed to develop the application.
+    The app includes a form that collects input from the user and converts it into a dataframe.
+    The input dataframe is then fed into the saved ML model, and the resulting output is displayed on the result.html file.
 
-Flask is used here for the app purpose, it consist of a form which takes various input and convert it into dataframe which is input to ml saved model and output is then displayed over result.html file.
-
-For runnning the web app, download the files and run the app.py file over terminal. The packages used in the code should be downloaded by the user.
-
+To run the web app, download the necessary files and execute the app.py file via the terminal. Ensure that the required packages mentioned in the code are installed on your system.
 Video:
 
 https://user-images.githubusercontent.com/104855741/232224039-5b2861be-2699-4f53-a3ff-187481d6518f.mp4
